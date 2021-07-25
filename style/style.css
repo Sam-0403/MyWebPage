@@ -9,7 +9,7 @@ body {
 }
 .cover {
   height: 360px;
-  background: url(/img/cover_overlay.png), url(/img/cover.png);
+  background: url(../img/cover_overlay.png), url(../img/cover.png);
   background-repeat: no-repeat, no-repeat;
   background-position: center, center;
   background-size: 100% 100%, cover;
@@ -93,7 +93,7 @@ div.section {
   padding: 30px 40px;
 }
 div.section1 {
-  background: url(/img/triangle2white.svg) no-repeat center bottom / 100%;
+  background: url(../img/triangle2white.svg) no-repeat center bottom / 100%;
   padding-bottom: 100px;
   background-color: #f4f4f4;
 }
@@ -205,7 +205,7 @@ div.section2 .section2_container div a:hover {
   }
 }
 div.section3 {
-  background: url(/img/triangle1white.svg) no-repeat center top / 100%;
+  background: url(../img/triangle1white.svg) no-repeat center top / 100%;
   padding-top: 100px;
   background-color: #f4f4f4;
 }
