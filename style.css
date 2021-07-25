@@ -207,6 +207,8 @@ div.section2 .section2_container div a:hover {
 div.section3 {
   background: url(triangle1white.svg) no-repeat center top / 100%;
   padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: #f4f4f4;
 }
 div.section3 h2 {
@@ -228,7 +230,7 @@ div.section3 .navigator button {
   border-radius: 2px;
   background-color: #bbbbbb;
 }
-div.section3 .navigator button i {
+div.section3 .navigator button span {
   line-height: 28px;
   color: #ffffff;
 }
@@ -287,7 +289,6 @@ div.section3 .project_list_wrapper ul li a div:hover span {
   }
   .navigator button span {
     font-size: 18px;
-    color: #ffffff;
   }
 }
 @media all and (max-width: 399px) {
@@ -296,7 +297,6 @@ div.section3 .project_list_wrapper ul li a div:hover span {
   }
   .navigator button span {
     font-size: 10px;
-    color: #ffffff;
   }
 }
 .section4 iframe {
@@ -335,7 +335,7 @@ div.section3 .project_list_wrapper ul li a div:hover span {
 .contact_info div div span {
   display: block;
   padding: 10px 5px;
-  font-size: 2vw;
+  font-size: max(2vw, 14px);
   border-left: 4px solid #ffb6a3;
   color: #404040;
 }

@@ -213,6 +213,8 @@ div.section2{
 div.section3{
     background: url(./triangle1white.svg) no-repeat center top/100%;
     padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: @main_gray;
     h2{
         text-align: center;
@@ -232,7 +234,7 @@ div.section3{
             border: 0px;
             border-radius: 2px;
             background-color: #bbbbbb;
-            i{
+            span{
                 line-height: 28px;
                 //font-size: 18px;
                 color: #ffffff;
@@ -296,7 +298,6 @@ div.section3{
             width: 50px;
             span{
                 font-size: 18px;
-                color: #ffffff;
             }
         }
     }
@@ -307,7 +308,6 @@ div.section3{
             width: 20px;
             span{
                 font-size: 10px;
-                color: #ffffff;
             }
         }
     }
@@ -347,7 +347,7 @@ div.section3{
             span{
                 display: block;
                 padding: 10px 5px;
-                font-size: 2vw;
+                font-size: max(2vw, 14px);
                 border-left: 4px solid @main_color;
                 color: #404040;
                 a{
